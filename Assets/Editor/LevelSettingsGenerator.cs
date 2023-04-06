@@ -86,7 +86,7 @@ namespace Editor
 
         private void SaveData()
         {
-            if (_fileName == "")
+            if (string.IsNullOrEmpty(_fileName))
             {
                 ShowError("File name is empty");
                 return;

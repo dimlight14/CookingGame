@@ -77,6 +77,11 @@ namespace Editor
 
         private void SaveData()
         {
+            if(string.IsNullOrEmpty(_fileName))
+            {
+                Debug.LogError("File name is empty");
+                return;
+            }
             var endPath = _fileName + FILE_EXTENSION;
             _settingsSerializer.SerializeToAssets(_dataWrapper.GameSettings,endPath);
             AssetDatabase.Refresh();
