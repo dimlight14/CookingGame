@@ -1,0 +1,1 @@
+{"MaxFoodPerOrder":3,"OrdersTotal":8,"FoodTotal":17,"TimeTotal":60,"PremadeOrders":[{"OrderNumber":1,"FoodInOrder":[1,1,1]},{"OrderNumber":2,"FoodInOrder":[3,4]},{"OrderNumber":3,"FoodInOrder":[2]}]}
